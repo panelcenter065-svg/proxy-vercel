@@ -2,23 +2,45 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Center</title>
+  <title>Center ☘️</title>
 
   <!-- Metatags para WhatsApp -->
   <meta property="og:title" content="Center ☘️" />
   <meta property="og:description" content="https://ccenter-24.vercel.app" />
-  <meta property="og:image" content="ccenter-24.vercel.app" />
+  <meta property="og:image" content="https://ccenter-24.vercel.app/logo.png" />
   <meta property="og:url" content="https://ccenter-24.vercel.app/" />
   <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Estilos: fondo negro, texto blanco y links destacados -->
+  <style>
+    body {
+      background-color: #000000; /* fondo negro */
+      color: #ffffff;           /* texto blanco */
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      margin: 0;
+    }
+    a {
+      color: #00ffff; /* links en azul/verde brillante */
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <p>Redirigiendo a la página oficial... <a href="https://ganamos.io">Haz clic aquí si no redirige</a>.</p>
+  <div>
+    <h1>Redirigiendo a la página oficial...</h1>
+    <p>Si no ocurre automáticamente, <a href="https://ganamos.io">haz clic aquí</a>.</p>
+  </div>
 
   <script>
-    // Redirección automática después de 1 segundo
+    // Redirección automática después de 0.5 segundos
     setTimeout(() => {
       window.location.href = "https://ganamos.io";
-    }, 1000);
+    }, 500);
   </script>
 </body>
 </html>
